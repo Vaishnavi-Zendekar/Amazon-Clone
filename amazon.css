@@ -1,0 +1,672 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav-bar{
+    height:60px;
+    width:100%;
+    background-color:#0F1111;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+#one{
+    height:50px;
+    width:113px;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/019/040/342/original/amazon-logo-editorial-free-vector.jpg");
+    background-size:cover;
+    padding:1px 8px 0px 6px;
+    transition:border none;
+}
+#one:hover{
+    border:2px solid white;
+    cursor: pointer;
+}
+#two{
+    width:89px;
+    height:50px;
+    display:flex;
+    margin:5px 2px 5px 0px;
+    padding:0px 9px;
+}
+.fa-location-dot{
+    font-size:20px;
+    margin-top:25px;
+    color:azure;
+}
+.India{
+    font-size:16px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    font-weight:bold;
+    margin-left:10px;
+    margin-top:30px;
+    padding:0px 0px 1px;
+    transition:border none;
+}
+#two:hover{
+    border:2px solid white;
+    cursor: pointer;
+}
+#three{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px 4px 10px 3px;
+    margin:0px 6px;
+}
+#All{
+    height:40px;
+    width:52px;
+    background-color: #d6d0d0;
+    padding:0px 0px 0px 5px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    border:none;
+}
+#f_1{
+    font-size:14px;
+    color:#0F1111;
+}
+#i_1{
+    height:38px;
+    width:512px;
+    border:none;
+    padding:0.5px 5px 2px 5px;
+    color:#0F1111;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition:border none;
+}
+#i_1:hover{
+    border:skyblue 10px;
+}
+#Search_logo{
+    height:40px;
+    width:45px;
+    background-color:rgb(144, 199, 220);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:none;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+.fa-magnifying-glass{
+    padding:4px;
+}
+#four{
+    height:50px;
+    width:74px;
+    padding:0px 9px 5px;
+    margin:0px 0px 0px 1px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:4px;
+    transition:border none;
+}
+#four:hover{
+    border:2px solid white;
+}
+#Flag{
+    height:16.2px;
+    width:22px;
+    background-image: url('https://www.bing.com/th?id=OIP.vIZGd3WidBiWHZx2nisM4wHaEo&w=156&h=100&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2');
+    background-size:cover;
+}
+#f_2{
+    font-size:15px;
+    color:#FFFFFF;
+}
+#five{
+    height:45px;
+    width:132px;
+    margin:0px 0px 0px 2px;
+    padding:0px 9px 10px;
+    margin-top:15px;
+}
+#five:hover{
+    cursor:pointer;
+}
+.five_1{
+    font-size:12px;
+    color:#FFFFFF;
+    margin-left:10px;
+}
+.five_2{
+    color:#FFFFFF;
+    margin-left:10px;
+    font-size:14px;
+    font-weight:bold;
+}
+#Six{
+    width:77px;
+    height:50px;
+    margin:0px 0px 0px 2px;
+    padding:0px 9px 10px;
+    margin-top:15px;
+}
+#Six:hover{
+    cursor: pointer;
+}
+.Six_1{
+    margin:9px 0px 0px;
+    color:#FFFFFF;
+    font-size:12px;
+}
+.Six_2{
+    color:#FFFFFF;
+    font-size:14px;
+    font-weight:bold;
+}
+#Seven{
+    height:50px;
+    width:84px;
+    margin:0px 11px 0px 2px;
+    padding:0px 9px 11px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.fa-cart-shopping{
+    font-size:30px;
+    color:#FFFFFF;
+}
+.Seven_1{
+    color:#FFFFFF;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:15px;
+}
+.Seven_1:hover{
+    cursor:pointer;
+}
+.nav-bar-2{
+    height:40px;
+    width:100%;
+    background-color: #222b2b;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-left:0;
+}
+#All-1{
+   height:40px;
+   width:59px;
+   padding:8px 9px;
+   display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-bars{
+    color:#FFFFFF;
+    font-size:20px;
+}
+.bar-1{
+    height:40px;
+    width:996px;
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-top:5px;
+}
+#Today{
+    height:28px;
+    width:103px;
+    color:#FFFFFF;
+    padding:8px 9px;
+    margin:5px 0px 6px;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+}
+#Customer{
+    height:28px;
+    width:129px;
+    color:#FFFFFF;
+    padding:8px 9px;
+    margin:5px 0px 6px;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+}
+#Registry{
+    height:28px;
+    width:70px;
+    color:#FFFFFF;
+    padding:8px 9px;
+    margin:5px 0px 6px;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+}
+#Gift{
+    height:28px;
+    width:81px;
+    color:#FFFFFF;
+    padding:8px 9px;
+    margin:5px 0px 6px;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+}
+#Sell{
+    height:28px;
+    width:42px;
+    color:#FFFFFF;
+    padding:8px 9px;
+    margin:5px 0px 6px;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+}
+#Shop{
+    height:26px;
+    width:147px;
+    color:#FFFFFF;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:5px;
+}
+/*Main Page*/
+.Main{
+    height:600px;
+    width:100%;
+    Margin-top:0px;
+    background-image:url('https://m.media-amazon.com/images/I/61zAjw4bqPL._SX3000_.jpg');
+    background-size:cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#info{
+    width:1468px;
+    height:40px;
+    background-color:#F5F6F6;
+    color:#0F1111;
+    font-size:16px;
+    text-align: center;
+    line-height:40px;
+}
+/*--------Styling Cards--------*/
+.middle{
+    background-color: #E3E6E6;
+}
+.Cards{
+    height:900px;
+    width:1468px;
+    margin-top:-250px;
+    margin-left:20px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap:10px;
+}
+.card-title{
+    margin-top:10px;
+    font-size:25px;
+    margin-left:20px;
+    margin-bottom:10px;
+}
+.Card-1{
+    background-color:#FFFFFF;
+}
+.sm-cards{
+    height:340px;
+    margin-left:20px;
+    width:320px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap:15px;
+}
+#sm-card1{
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/CleaningTool_1x._SY116_CB563137408_.jpg');
+    background-size:cover;
+}
+#sm-card2{
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/HomeStorage_1x._SY116_CB563137408_.jpg');
+    background-size:cover;
+}
+#sm-card3{
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/HomeDecor_1x._SY116_CB563137408_.jpg');
+    background-size:cover;
+}
+#sm-card4{
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Bedding_1x._SY116_CB563137408_.jpg');
+    background-size:cover;
+}
+.card-info{
+    color:rgb(38, 221, 160);
+    font-size:18px;
+    margin-left:20px;
+    margin-top:15px;
+}
+.card-info:hover{
+    cursor:pointer;
+}
+#sm1-card1{
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_BOTTOMS_1x._SY116_CB624172947_.jpg');
+    background-size:cover;
+}
+#sm1-card2{
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_TOPS_1x._SY116_CB623353881_.jpg');
+    background-size:cover;
+}
+#sm1-card3{
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_DRESSES_1x._SY116_CB623353881_.jpg');
+    background-size:cover;
+}
+#sm1-card4{
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_SHOES_1x._SY116_CB624172947_.jpg');
+    background-size:cover;
+}
+.post_card{
+    height:340px;
+    margin-left:20px;
+    width:320px;
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg');
+    background-size:cover;
+}
+.post_card2{
+    height:340px;
+    margin-left:20px;
+    width:320px;
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg');
+    background-size:cover;
+}
+#sm2-card1{
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_315_HP_NewArrivals_QuadCard_D_01_1x._SY116_CB555960040_.jpg');
+    background-size:cover;
+}
+#sm2-card2{
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_316_HP_NewArrivals_QuadCard_D_02_1x._SY116_CB555960040_.jpg');
+    background-size:cover;
+}
+#sm2-card3{
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_317_HP_NewArrivals_QuadCard_D_03_1x._SY116_CB555960040_.jpg');
+    background-size:cover;
+}
+#sm2-card4{
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_318_HP_NewArrivals_QuadCard_D_04_1x._SY116_CB555960040_.jpg');
+    background-size:cover;
+}
+.post_card3{
+    height:340px;
+    margin-left:20px;
+    width:320px;
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg');
+    background-size:cover;
+}
+.post_card4{
+    height:340px;
+    margin-left:20px;
+    width:320px;
+    background-image:url('https://m.media-amazon.com/images/I/81AHTyq2wVL._AC_SY200_.jpg');
+    background-size:cover;
+}
+.post_card5{
+    height:340px;
+    margin-left:20px;
+    width:320px;
+    background-image:url('https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Aug/Handbags_1x._SY116_CB566100767_.jpg');
+    background-size:cover;
+}
+/*---------Best sellers--------------*/
+.gallerybox {
+    overflow-x: auto;
+    margin-top:20px;
+    margin-left:20px;
+    scrollbar-width:none;
+    background-color: #FFFFFF;
+    width:1468px;
+}
+
+.imgbox img {
+    width: 400px;
+    height: 200px;
+    margin-right: 5px;
+    border:none;
+}
+
+.imgbox {
+    display: flex;
+    flex-wrap: nowrap;
+}
+/*----FOOTER------*/
+.See{
+    margin-top:20px;
+    background-color:#FFFFFF;
+    height:205px;
+    width:100%;
+    text-align: center;
+}
+.space{
+    height:10px;
+    width:1468px;
+}
+#personalized{
+    margin-top:20px;
+    width:1468px;
+}
+#f-btn{
+    margin-top:10px;
+    background-color:rgb(242, 187, 35);
+    width:200px;
+    text-align: center;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+#f-btn:hover{
+    padding:5px;
+    opacity:0.9;
+    cursor:pointer;
+}
+.link{
+    color:#007185;
+    font-size:14px;
+}
+.link:hover{
+    cursor: pointer;
+}
+.com-info{
+    height:1023px;
+    background-color:rgb(21, 25, 32);
+}
+#back{
+    height:60px;
+    background-color: #2f3b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#top{
+    font-size:14px;
+    color:#FFFFFF;
+}
+.Get_know{
+    height:395px;
+    background-color: rgb(33, 43, 60);
+    display:flex;
+    justify-content: center;
+    gap:100px;
+}
+.para_style{
+    font-size:20px;
+    color:#FFFFFF;
+    font-weight: bold;
+}
+.list-style{
+    margin-top:6px;
+    list-style-type: none;
+    color:#DDDDDD;
+    font-size:16px;
+}
+.decor{
+    margin:10px;
+}
+.decor:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#col-1{
+    margin-top:40px;
+}
+#col-2{
+    margin-top:40px;
+}
+#col-3{
+    margin-top:40px;
+}
+#col-4{
+    margin-top:40px;
+    width:140px;
+}
+#logo_s{
+    height:90px;
+    background-color: rgb(33, 43, 60);
+    border-top:0.5px solid rgb(226, 223, 223);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+}
+#logo-1{
+    width:150px;
+    height:60px;
+    background-image:url('https://th.bing.com/th/id/OIP.Zdlo4XN_clJNDUUHQ2k8RAHaC9?rs=1&pid=ImgDetMain');
+    background-size:cover;
+}
+#logo-1:hover{
+    cursor:pointer;
+}
+#block-1{
+    height:34px;
+    width:117px;
+    border:0.1px solid lightcyan;
+    border-radius:5px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+#block-1:hover{
+    cursor: pointer;
+}
+#globe{
+    height:15px;
+    width:15px;
+    color:#FFFFFF;
+    margin-left:10px;
+}
+#globe1{
+    height:15px;
+    width:15px;
+    color:#FFFFFF;
+    margin-left:20px;
+    font-weight: lighter;
+}
+#block-2{
+    height:34px;
+    width:150px;
+    border:0.1px solid lightcyan;
+    border-radius:5px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+#block-2:hover{
+    cursor: pointer;
+}
+#block-3{
+    height:34px;
+    width:141px;
+    border:0.1px solid lightcyan;
+    border-radius:5px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+#block-3:hover{
+    cursor: pointer;
+}
+#globe3{
+    height:15px;
+    width:15px;
+    color:#FFFFFF;
+    margin-left:20px;
+    font-weight: lighter;
+    background-image:url('https://th.bing.com/th/id/R.8ddd9500c1c4710fba5d03e389745454?rik=1hZqsxoK%2b5WCZw&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fd%2fde%2fFlag_of_the_United_States.png&ehk=UQNcwD%2f6s4YxGw5K0hT8nGmeZYRbCoevgtAonR%2bchjY%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+}
+.last{
+    display: flex;
+    justify-content:center;
+    margin-top:15px;
+    gap:60px;
+}
+#l-1{
+    width:60px;
+}
+#l-1:hover{
+    cursor:pointer;
+}
+#l-2{
+    width:100px;
+}
+#l-2:hover{
+    cursor:pointer;
+}
+#l-3{
+    width:80px;
+}
+#l-3:hover{
+    cursor:pointer;
+}
+#l-4{
+    width:80px;
+}
+#l-4:hover{
+    cursor:pointer;
+}
+#l-5{
+    width:110px;
+}
+#l-5:hover{
+    cursor:pointer;
+}
+#l-6{
+    width:100px;
+}
+#l-6:hover{
+    cursor:pointer;
+}
+.conditions{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    margin-top:10px;
+}
+.con-style{
+    color:#FFFFFF;
+    margin:10px;
+}
+.con-style:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+.copyright{
+    height:20px;
+    margin-top:5px;
+    color:#FFFFFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
